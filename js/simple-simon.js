@@ -64,28 +64,5 @@
                 }
             });
         }
-
-        // console.log($(this).attr("data"))
-        //this console.log is giving the data value from the html of each colored box
-
-        // var red = "red";
-        // var yellow = "yellow";
-        // var green = "green";
-        // var blue = "blue";
-        //
-        // var clickColor = {
-        //     colorClicker: function (color) {
-        //         console.log(color);
-        //     }
-        // };
-
-
-        // $("#yellow-box").click(function() {
-        //     clickColor.colorClicker(yellow)});
-        // $("#green-box").click(function() {
-        //     clickColor.colorClicker(green)});
-        // $("#blue-box").click(function() {
-        //     clickColor.colorClicker(blue)});
-
     })
 })();
