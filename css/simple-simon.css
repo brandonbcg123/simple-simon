@@ -9,6 +9,7 @@ body{
     margin: 25px;
     align-content: center;
     opacity: .35;
+    cursor: pointer;
 }
 /*.box:nth-child(2) {*/
 /*clear: left;*/
@@ -20,12 +21,12 @@ h1#gameName {
 
 #red-box {
     background-color: #F00;
-    margin-top: 40%;
+    /*margin-top: 40%;*/
 }
 
 #yellow-box {
     background-color: #FF0;
-    margin-top: 40%;
+    /*margin-top: 40%;*/
 }
 
 #green-box {
@@ -42,4 +43,22 @@ h1#gameName {
     height: 40px;
     margin-top: 10%;
     font-weight: bold;
+}
+
+
+@keyframes lightUp {
+    0%{
+        box-shadow: 0 0 0 0 #fff;
+    }
+    50%{
+        box-shadow: 0 0 25px 10px #fff;
+    }
+    100%{
+        box-shadow: 0 0 0 0 #fff;
+    }
+
+}
+.light{
+    animation-duration: 1s;
+    animation-name: lightUp;
 }
